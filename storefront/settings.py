@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'playground',
     'debug_toolbar',
     'store',
+    'store_custom',
     'tags',
     'Likes'
 ]
@@ -93,7 +94,7 @@ DATABASES = {
         'NAME': 'storefront',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': 'Tizita2626',
+        'PASSWORD': 'Password',
         'PORT': '',
         'OPTIONS': {
             'unix_socket': '/var/run/mysqld/mysqld.sock',
